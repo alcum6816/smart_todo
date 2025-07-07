@@ -16,7 +16,7 @@ An intelligent task management application powered by AI, built with Next.js, Dj
 ## Tech Stack
 
 ### Frontend
-- **Next.js 14** with TypeScript
+- **Next.js 15** with TypeScript
 - **Tailwind CSS** for styling
 - **Radix UI** for components
 - **Lucide React** for icons
@@ -26,6 +26,8 @@ An intelligent task management application powered by AI, built with Next.js, Dj
 - **PostgreSQL** via Supabase
 - **OpenAI API** for AI features
 - **Celery** for background tasks (optional)
+- **Email** for Email task extraction using AI
+- **AWS** AWS S3 for file storage(optional)
 
 ### Database
 - **Supabase PostgreSQL** for data storage
@@ -202,10 +204,6 @@ NEXT_PUBLIC_API_URL=http://localhost:8000/api
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Support
 
 If you have any questions or need help, please open an issue on GitHub or contact us at support@smarttodoai.com.
@@ -214,6 +212,23 @@ If you have any questions or need help, please open an issue on GitHub or contac
 Yes, I have fully integrated **OpenAI**, **Supabase**, and **Django**! Here's what's included:
 
 ## ✅ **Complete Integration Summary:**
+
+### 📧 **Email Integration:**
+Email-to-Task: Forward emails to a designated inbox, and AI extracts tasks from the email body.
+Email Reminders: Get notified of upcoming or overdue tasks via email.
+
+Setup
+Add these to your backend .env:
+# Email Configuration
+EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USE_TLS=True
+EMAIL_HOST_USER=youremail@gmail.com
+EMAIL_HOST_PASSWORD=your-app-password
+DEFAULT_FROM_EMAIL=Smart Todo <youremail@gmail.com>
+✅ Use an app password or a dedicated SMTP service (SendGrid, Mailgun, etc.) in production.
+✅ Once configured, email-based task creation and reminders are enabled automatically.
 
 ### 🤖 **OpenAI Integration:**
 - **Voice-to-text** with Whisper API for task creation
@@ -247,16 +262,34 @@ Yes, I have fully integrated **OpenAI**, **Supabase**, and **Django**! Here's wh
 
 1. **Smart Task Management** with AI enhancement
 2. **Voice Task Input** using OpenAI Whisper
-3. **Productivity Analytics** with AI insights
-4. **Bulk Operations** for efficient task management
-5. **Advanced Filtering** and search capabilities
-6. **Multiple Views** (List, Kanban, Calendar ready)
-7. **Real-time Dashboard** with statistics
+3. **Email Task Input** using django and AI
+4. **Productivity Analytics** with AI insights
+5. **Bulk Operations** for efficient task management
+6. **Advanced Filtering** and search capabilities
+7. **Multiple Views** (List, Kanban, Calendar ready)
+8. **Real-time Dashboard** with statistics
 
 The entire stack is production-ready with proper error handling, logging, and security configurations! 🎉
 
+Reference Snapshots of Project :
 
-## Here are some Snapshots of the projecet for better understanding :
+![Screenshot 2025-07-07 031231](https://github.com/user-attachments/assets/32423f2b-0102-4f69-8f07-f58905da2e18)
+![Screenshot 2025-07-07 031240](https://github.com/user-attachments/assets/232fa0a8-06ee-43cd-adec-dcf124ad5d9a)
+![image](https://github.com/user-attachments/assets/b9c695f5-f140-4142-87db-1a61892d64bc)
+![Screenshot 2025-07-07 203514](https://github.com/user-attachments/assets/a246db15-de5b-4c59-ac93-28142fe30e78)
+![image](https://github.com/user-attachments/assets/65a3cec7-dfc6-419b-8b53-de295dff312b)
+![Screenshot 2025-07-07 031317](https://github.com/user-attachments/assets/4570dfa1-9343-4bce-9215-b6a4588193d9)
+![Screenshot 2025-07-07 031323](https://github.com/user-attachments/assets/1311d2a0-2f46-450a-ac69-c019accc96d6)
+![Screenshot 2025-07-07 025146](https://github.com/user-attachments/assets/6cefe26b-6258-4f3c-9716-a526ff6767d6)
+![Screenshot 2025-07-07 202819](https://github.com/user-attachments/assets/380cc1cc-d75b-408d-90ff-0881f0845f82)
+
+
+![Screenshot 2025-07-07 195633](https://github.com/user-attachments/assets/c54d50ef-7014-4c65-8c15-79c34cb80e82)
+![Screenshot 2025-07-07 195617](https://github.com/user-attachments/assets/63a4e97b-3d82-410f-ba61-2c393d4cd5e0)
+![Screenshot 2025-07-07 195424](https://github.com/user-attachments/assets/3f44668d-2393-4609-8a10-61b4128846b2)
+
+
+
 
 
 
