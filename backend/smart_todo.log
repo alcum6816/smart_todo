@@ -1,0 +1,978 @@
+INFO 2025-07-07 02:32:42,350 autoreload 17240 22172 Watching for file changes with StatReloader
+INFO 2025-07-07 02:42:24,426 autoreload 21776 11744 Watching for file changes with StatReloader
+WARNING 2025-07-07 02:50:39,674 log 21776 13712 Not Found: /api
+WARNING 2025-07-07 02:50:39,674 basehttp 21776 13712 "GET /api HTTP/1.1" 404 2443
+WARNING 2025-07-07 02:50:39,779 log 21776 13712 Not Found: /favicon.ico
+WARNING 2025-07-07 02:50:39,780 basehttp 21776 13712 "GET /favicon.ico HTTP/1.1" 404 2467
+INFO 2025-07-07 02:50:45,555 basehttp 21776 13712 "GET /admin HTTP/1.1" 301 0
+INFO 2025-07-07 02:50:45,621 basehttp 21776 16708 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-07-07 02:50:45,850 basehttp 21776 16708 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2025-07-07 02:50:46,022 basehttp 21776 16708 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-07-07 02:50:46,024 basehttp 21776 10332 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-07-07 02:50:46,042 basehttp 21776 16708 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-07-07 02:50:46,042 basehttp 21776 10332 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-07-07 02:50:46,059 basehttp 21776 16708 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-07-07 02:50:46,073 basehttp 21776 10332 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-07-07 02:50:46,093 basehttp 21776 16708 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-07-07 02:51:17,898 basehttp 21776 16708 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-07-07 02:51:22,048 basehttp 21776 16708 "GET /admin/ HTTP/1.1" 200 9678
+INFO 2025-07-07 02:51:22,106 basehttp 21776 16708 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-07-07 02:51:22,125 basehttp 21776 16708 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-07-07 02:51:22,126 basehttp 21776 10332 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-07-07 02:51:52,825 basehttp 21776 10332 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-07-07 02:51:57,406 basehttp 21776 10332 "GET /admin/ HTTP/1.1" 200 9678
+INFO 2025-07-07 02:52:04,922 basehttp 21776 10332 "GET /admin/ HTTP/1.1" 200 9678
+WARNING 2025-07-07 02:52:55,961 log 21776 8976 Not Found: /
+WARNING 2025-07-07 02:52:55,961 basehttp 21776 8976 "GET / HTTP/1.1" 404 2416
+INFO 2025-07-07 03:03:11,805 autoreload 23412 1292 Watching for file changes with StatReloader
+WARNING 2025-07-07 03:03:22,856 log 23412 21784 Not Found: /
+WARNING 2025-07-07 03:03:22,857 basehttp 23412 21784 "GET / HTTP/1.1" 404 2416
+WARNING 2025-07-07 03:03:22,941 log 23412 21784 Not Found: /favicon.ico
+WARNING 2025-07-07 03:03:22,941 basehttp 23412 21784 "GET /favicon.ico HTTP/1.1" 404 2467
+INFO 2025-07-07 03:12:50,540 basehttp 23412 10224 "OPTIONS /api/tasks/tasks/upcoming/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:50,540 basehttp 23412 7892 "OPTIONS /api/tasks/tasks/today/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:50,542 basehttp 23412 6112 "OPTIONS /api/tasks/tasks/overdue/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:50,542 basehttp 23412 15556 "OPTIONS /api/ai/insights/productivity_insights/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:50,563 basehttp 23412 10144 "OPTIONS /api/tasks/tasks/stats/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:50,567 basehttp 23412 7892 "OPTIONS /api/tasks/tasks/today/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:50,568 basehttp 23412 16156 "OPTIONS /api/tasks/tasks/stats/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:50,569 basehttp 23412 10224 "OPTIONS /api/tasks/tasks/upcoming/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:50,569 basehttp 23412 6112 "OPTIONS /api/tasks/tasks/overdue/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:50,569 basehttp 23412 15556 "OPTIONS /api/ai/insights/productivity_insights/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:56,916 basehttp 23412 15556 "OPTIONS /api/tasks/tasks/stats/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:56,924 basehttp 23412 7892 "OPTIONS /api/ai/insights/productivity_insights/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:56,925 basehttp 23412 6112 "OPTIONS /api/tasks/tasks/today/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:56,928 basehttp 23412 16156 "OPTIONS /api/tasks/tasks/upcoming/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:12:56,928 basehttp 23412 10224 "OPTIONS /api/tasks/tasks/overdue/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:38,673 basehttp 23412 10224 "OPTIONS /api/tasks/tasks/stats/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:38,684 basehttp 23412 10224 "OPTIONS /api/tasks/tasks/today/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:38,685 basehttp 23412 7892 "OPTIONS /api/ai/insights/productivity_insights/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:38,685 basehttp 23412 6112 "OPTIONS /api/tasks/tasks/overdue/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:38,685 basehttp 23412 16156 "OPTIONS /api/tasks/tasks/upcoming/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:38,685 basehttp 23412 15556 "OPTIONS /api/tasks/tasks/stats/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:38,686 basehttp 23412 10144 "OPTIONS /api/tasks/tasks/today/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:38,690 basehttp 23412 7892 "OPTIONS /api/tasks/tasks/overdue/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:38,690 basehttp 23412 10224 "OPTIONS /api/tasks/tasks/upcoming/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:38,690 basehttp 23412 6112 "OPTIONS /api/ai/insights/productivity_insights/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:57,812 basehttp 23412 6112 "OPTIONS /api/tasks/categories/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:57,813 basehttp 23412 16156 "OPTIONS /api/tasks/categories/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:57,814 basehttp 23412 10224 "OPTIONS /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 0
+INFO 2025-07-07 03:13:57,815 basehttp 23412 7892 "OPTIONS /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 0
+WARNING 2025-07-07 03:14:22,016 log 23412 2720 Not Found: /
+WARNING 2025-07-07 03:14:22,016 basehttp 23412 2720 "GET / HTTP/1.1" 404 2416
+WARNING 2025-07-07 03:14:37,723 log 23412 14276 Not Found: /api
+WARNING 2025-07-07 03:14:37,725 basehttp 23412 14276 "GET /api HTTP/1.1" 404 2443
+INFO 2025-07-07 03:14:52,335 basehttp 23412 14276 "GET /admin/ HTTP/1.1" 200 9678
+INFO 2025-07-07 03:14:52,522 basehttp 23412 14276 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-07-07 03:14:52,526 basehttp 23412 14276 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-07-07 03:14:52,530 basehttp 23412 220 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-07-07 03:14:52,530 basehttp 23412 1416 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-07-07 03:14:52,530 basehttp 23412 14276 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-07-07 03:14:52,538 basehttp 23412 1416 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-07-07 03:14:52,538 basehttp 23412 14276 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-07-07 03:14:52,542 basehttp 23412 1416 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-07-07 03:14:52,542 basehttp 23412 14276 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-07-07 03:15:02,683 basehttp 23412 14276 "GET /admin/ai_engine/aiinsight/add/ HTTP/1.1" 200 17087
+INFO 2025-07-07 03:15:02,718 basehttp 23412 14276 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2025-07-07 03:15:03,043 basehttp 23412 15988 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2025-07-07 03:15:03,043 basehttp 23412 19088 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2025-07-07 03:15:03,045 basehttp 23412 7736 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-07-07 03:15:03,048 basehttp 23412 9656 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2025-07-07 03:15:03,057 basehttp 23412 9656 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-07-07 03:15:03,057 basehttp 23412 7736 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-07-07 03:15:03,058 basehttp 23412 15988 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-07-07 03:15:03,059 basehttp 23412 19088 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-07-07 03:15:03,066 basehttp 23412 9656 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-07-07 03:15:03,069 basehttp 23412 7736 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-07-07 03:15:03,071 basehttp 23412 19088 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-07-07 03:15:03,073 basehttp 23412 13328 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-07-07 03:15:03,074 basehttp 23412 15988 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-07-07 03:15:03,080 basehttp 23412 15988 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-07-07 03:15:06,732 basehttp 23412 14276 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-07 03:15:06,812 basehttp 23412 15988 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-07-07 03:15:06,812 basehttp 23412 14276 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-07-07 03:15:49,674 basehttp 23412 20688 "OPTIONS /api/tasks/categories/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:15:49,676 basehttp 23412 15536 "OPTIONS /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 0
+INFO 2025-07-07 03:15:49,677 basehttp 23412 7956 "OPTIONS /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 0
+INFO 2025-07-07 03:15:49,678 basehttp 23412 4240 "OPTIONS /api/tasks/categories/ HTTP/1.1" 200 0
+ERROR 2025-07-07 03:15:55,854 log 23412 4240 Internal Server Error: /api/tasks/tasks/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "tasks_task" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_task"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "tasks_task" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_task"
+                                          ^
+
+ERROR 2025-07-07 03:15:55,884 log 23412 7956 Internal Server Error: /api/tasks/categories/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "tasks_category" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_category"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "tasks_category" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_category"
+                                          ^
+
+ERROR 2025-07-07 03:15:55,899 basehttp 23412 4240 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 500 191701
+ERROR 2025-07-07 03:15:55,905 basehttp 23412 7956 "GET /api/tasks/categories/ HTTP/1.1" 500 190727
+ERROR 2025-07-07 03:16:01,635 log 23412 15536 Internal Server Error: /api/tasks/tasks/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "tasks_task" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_task"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "tasks_task" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_task"
+                                          ^
+
+ERROR 2025-07-07 03:16:01,642 basehttp 23412 15536 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 500 191701
+ERROR 2025-07-07 03:16:01,892 log 23412 4240 Internal Server Error: /api/tasks/categories/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "tasks_category" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_category"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "tasks_category" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_category"
+                                          ^
+
+ERROR 2025-07-07 03:16:01,899 basehttp 23412 4240 "GET /api/tasks/categories/ HTTP/1.1" 500 190727
+INFO 2025-07-07 03:25:57,388 basehttp 23412 22552 "OPTIONS /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 0
+INFO 2025-07-07 03:25:57,400 basehttp 23412 18564 "OPTIONS /api/tasks/categories/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:25:57,413 basehttp 23412 15612 "OPTIONS /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 0
+INFO 2025-07-07 03:25:57,425 basehttp 23412 20336 "OPTIONS /api/tasks/categories/ HTTP/1.1" 200 0
+INFO 2025-07-07 03:37:53,183 autoreload 8732 1516 Watching for file changes with StatReloader
+ERROR 2025-07-07 03:38:20,763 log 8732 17064 Internal Server Error: /api/tasks/categories/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "tasks_category" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_category"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "tasks_category" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_category"
+                                          ^
+
+ERROR 2025-07-07 03:38:20,771 log 8732 23120 Internal Server Error: /api/tasks/tasks/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "tasks_task" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_task"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "tasks_task" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_task"
+                                          ^
+
+ERROR 2025-07-07 03:38:20,780 basehttp 8732 17064 "GET /api/tasks/categories/ HTTP/1.1" 500 187807
+ERROR 2025-07-07 03:38:20,796 basehttp 8732 23120 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 500 188781
+ERROR 2025-07-07 03:38:26,471 log 8732 16808 Internal Server Error: /api/tasks/categories/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "tasks_category" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_category"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "tasks_category" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_category"
+                                          ^
+
+ERROR 2025-07-07 03:38:26,471 basehttp 8732 16808 "GET /api/tasks/categories/ HTTP/1.1" 500 187807
+ERROR 2025-07-07 03:38:26,758 log 8732 17064 Internal Server Error: /api/tasks/tasks/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "tasks_task" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_task"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "tasks_task" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_task"
+                                          ^
+
+ERROR 2025-07-07 03:38:26,758 basehttp 8732 17064 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 500 188781
+INFO 2025-07-07 03:43:03,717 autoreload 19072 12824 Watching for file changes with StatReloader
+ERROR 2025-07-07 03:43:23,039 log 19072 13660 Internal Server Error: /api/tasks/categories/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "tasks_category" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_category"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "tasks_category" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_category"
+                                          ^
+
+ERROR 2025-07-07 03:43:23,049 log 19072 14872 Internal Server Error: /api/tasks/tasks/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "tasks_task" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_task"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\lenovo\Desktop\job assignments\New folder\todo\backend\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "tasks_task" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "tasks_task"
+                                          ^
+
+ERROR 2025-07-07 03:43:23,062 basehttp 19072 13660 "GET /api/tasks/categories/ HTTP/1.1" 500 190727
+ERROR 2025-07-07 03:43:23,067 basehttp 19072 14872 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 500 191701
+INFO 2025-07-07 03:50:28,548 autoreload 21856 19264 Watching for file changes with StatReloader
+INFO 2025-07-07 03:50:46,492 basehttp 19072 15348 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 52
+INFO 2025-07-07 03:50:46,500 basehttp 19072 16704 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 03:52:05,229 basehttp 21856 17080 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 03:52:05,229 basehttp 21856 19740 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 52
+INFO 2025-07-07 03:52:08,111 basehttp 21856 17080 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 03:52:08,112 basehttp 21856 19740 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 52
+INFO 2025-07-07 04:01:39,883 basehttp 21856 14256 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 52
+INFO 2025-07-07 04:01:39,883 basehttp 21856 17792 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:01:49,665 basehttp 21856 14256 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:01:49,687 basehttp 21856 17792 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 52
+INFO 2025-07-07 04:03:22,568 basehttp 21856 17792 "OPTIONS /api/tasks/tasks/?status=all&priority=all&category=all&search= HTTP/1.1" 200 0
+WARNING 2025-07-07 04:03:22,590 log 21856 17792 Bad Request: /api/tasks/tasks/
+WARNING 2025-07-07 04:03:22,592 basehttp 21856 17792 "GET /api/tasks/tasks/?status=all&priority=all&category=all&search= HTTP/1.1" 400 203
+INFO 2025-07-07 04:03:26,595 basehttp 21856 14256 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+WARNING 2025-07-07 04:03:29,245 log 21856 14256 Bad Request: /api/tasks/tasks/
+WARNING 2025-07-07 04:03:29,249 basehttp 21856 14256 "GET /api/tasks/tasks/?status=all&priority=all&category=all&search= HTTP/1.1" 400 203
+INFO 2025-07-07 04:03:32,523 basehttp 21856 17792 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:06:41,896 basehttp 21856 5180 "OPTIONS /api/tasks/tasks/ HTTP/1.1" 200 0
+INFO 2025-07-07 04:06:46,240 basehttp 21856 5180 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:06:46,248 basehttp 21856 5540 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:07:43,660 basehttp 21856 5540 "OPTIONS /api/tasks/tasks/stats/ HTTP/1.1" 200 0
+INFO 2025-07-07 04:07:43,661 basehttp 21856 5180 "OPTIONS /api/tasks/tasks/today/ HTTP/1.1" 200 0
+INFO 2025-07-07 04:07:43,664 basehttp 21856 5180 "OPTIONS /api/tasks/tasks/upcoming/ HTTP/1.1" 200 0
+INFO 2025-07-07 04:07:43,665 basehttp 21856 5540 "OPTIONS /api/tasks/tasks/overdue/ HTTP/1.1" 200 0
+INFO 2025-07-07 04:07:43,669 basehttp 21856 5540 "OPTIONS /api/tasks/tasks/stats/ HTTP/1.1" 200 0
+INFO 2025-07-07 04:07:43,669 basehttp 21856 5180 "OPTIONS /api/ai/insights/productivity_insights/ HTTP/1.1" 200 0
+INFO 2025-07-07 04:07:43,671 basehttp 21856 5540 "OPTIONS /api/tasks/tasks/today/ HTTP/1.1" 200 0
+INFO 2025-07-07 04:07:43,675 basehttp 21856 5180 "OPTIONS /api/tasks/tasks/upcoming/ HTTP/1.1" 200 0
+INFO 2025-07-07 04:07:43,676 basehttp 21856 5540 "OPTIONS /api/tasks/tasks/overdue/ HTTP/1.1" 200 0
+INFO 2025-07-07 04:07:43,693 basehttp 21856 5180 "OPTIONS /api/ai/insights/productivity_insights/ HTTP/1.1" 200 0
+INFO 2025-07-07 04:07:47,941 basehttp 21856 12424 "GET /api/tasks/tasks/upcoming/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:07:47,941 basehttp 21856 5540 "GET /api/tasks/tasks/today/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:07:47,941 basehttp 21856 6204 "GET /api/tasks/tasks/overdue/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:07:48,512 basehttp 21856 12964 "GET /api/ai/insights/productivity_insights/ HTTP/1.1" 200 274
+INFO 2025-07-07 04:07:50,490 basehttp 21856 6204 "GET /api/tasks/tasks/overdue/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:07:50,490 basehttp 21856 5540 "GET /api/tasks/tasks/today/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:07:50,490 basehttp 21856 12424 "GET /api/tasks/tasks/upcoming/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:07:51,979 basehttp 21856 12964 "GET /api/ai/insights/productivity_insights/ HTTP/1.1" 200 274
+INFO 2025-07-07 04:07:51,979 basehttp 21856 5180 "GET /api/tasks/tasks/stats/ HTTP/1.1" 200 449
+INFO 2025-07-07 04:08:01,339 basehttp 21856 5180 "GET /api/tasks/tasks/stats/ HTTP/1.1" 200 449
+INFO 2025-07-07 04:08:26,113 basehttp 21856 12964 "GET /api/tasks/tasks/today/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:08:26,117 basehttp 21856 12424 "GET /api/tasks/tasks/upcoming/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:08:26,124 basehttp 21856 6204 "GET /api/tasks/tasks/overdue/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:08:27,048 basehttp 21856 5540 "GET /api/ai/insights/productivity_insights/ HTTP/1.1" 200 274
+INFO 2025-07-07 04:08:29,199 basehttp 21856 12424 "GET /api/tasks/tasks/upcoming/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:08:29,199 basehttp 21856 6204 "GET /api/tasks/tasks/overdue/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:08:29,201 basehttp 21856 12964 "GET /api/tasks/tasks/today/ HTTP/1.1" 200 2
+INFO 2025-07-07 04:08:30,602 basehttp 21856 5180 "GET /api/tasks/tasks/stats/ HTTP/1.1" 200 449
+INFO 2025-07-07 04:08:30,603 basehttp 21856 5540 "GET /api/ai/insights/productivity_insights/ HTTP/1.1" 200 274
+INFO 2025-07-07 04:08:39,737 basehttp 21856 5180 "GET /api/tasks/tasks/stats/ HTTP/1.1" 200 449
+INFO 2025-07-07 04:08:48,340 basehttp 21856 5540 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:08:48,340 basehttp 21856 5180 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:08:50,366 basehttp 21856 12964 "OPTIONS /api/tasks/tasks/?status=in_progress HTTP/1.1" 200 0
+INFO 2025-07-07 04:08:51,415 basehttp 21856 5540 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:08:51,415 basehttp 21856 5180 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:08:52,872 basehttp 21856 5180 "OPTIONS /api/tasks/tasks/?status=pending HTTP/1.1" 200 0
+INFO 2025-07-07 04:08:53,524 basehttp 21856 12964 "GET /api/tasks/tasks/?status=in_progress HTTP/1.1" 200 52
+INFO 2025-07-07 04:08:54,980 basehttp 21856 12964 "OPTIONS /api/tasks/tasks/?status=pending&priority=urgent HTTP/1.1" 200 0
+INFO 2025-07-07 04:08:55,302 basehttp 21856 5540 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:08:57,345 basehttp 21856 5180 "GET /api/tasks/tasks/?status=pending HTTP/1.1" 200 52
+INFO 2025-07-07 04:08:58,264 basehttp 21856 12964 "GET /api/tasks/tasks/?status=pending&priority=urgent HTTP/1.1" 200 52
+INFO 2025-07-07 04:08:58,528 basehttp 21856 5540 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:09:01,342 basehttp 21856 5540 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:12:47,484 basehttp 21856 5540 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:12:47,484 basehttp 21856 12964 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:12:57,567 basehttp 21856 12964 - Broken pipe from ('127.0.0.1', 59157)
+INFO 2025-07-07 04:12:57,577 basehttp 21856 5540 - Broken pipe from ('127.0.0.1', 59117)
+INFO 2025-07-07 04:12:58,905 basehttp 21856 6204 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:12:58,906 basehttp 21856 5180 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:16:38,125 basehttp 21856 448 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:16:38,125 basehttp 21856 22484 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:18:29,361 basehttp 21856 22484 "GET /api/tasks/tasks/?status=in_progress HTTP/1.1" 200 52
+INFO 2025-07-07 04:18:29,361 basehttp 21856 448 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:21:02,387 basehttp 21856 448 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:21:02,398 basehttp 21856 22484 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:21:08,414 basehttp 21856 448 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:21:08,415 basehttp 21856 22484 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:25:34,916 basehttp 21856 4060 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:25:34,916 basehttp 21856 14516 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 52
+INFO 2025-07-07 04:25:52,022 basehttp 21856 4060 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:25:52,025 basehttp 21856 14516 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:26:42,895 basehttp 21856 14516 - Broken pipe from ('127.0.0.1', 59794)
+INFO 2025-07-07 04:26:42,896 basehttp 21856 4060 - Broken pipe from ('127.0.0.1', 59795)
+INFO 2025-07-07 04:26:46,073 basehttp 21856 18000 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:26:46,074 basehttp 21856 10372 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 52
+INFO 2025-07-07 04:29:32,810 basehttp 21856 10372 "GET /api/tasks/tasks/?status=&priority=&category=&search= HTTP/1.1" 200 52
+INFO 2025-07-07 04:29:32,810 basehttp 21856 18000 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:34:10,905 basehttp 21856 8856 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:34:10,906 basehttp 21856 10200 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:34:15,887 basehttp 21856 8856 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:34:15,892 basehttp 21856 10200 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:39:16,922 basehttp 21856 8856 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:39:16,922 basehttp 21856 10200 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:40:16,945 autoreload 22988 22756 Watching for file changes with StatReloader
+INFO 2025-07-07 04:40:31,313 basehttp 22988 2664 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:40:31,728 basehttp 22988 18564 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:58:31,729 basehttp 22988 22472 "GET /api/tasks/tasks/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:58:31,729 basehttp 22988 10564 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 04:59:52,361 views 22988 10564 Created task: idk
+INFO 2025-07-07 04:59:52,380 basehttp 22988 10564 "POST /api/tasks/tasks/ HTTP/1.1" 201 201
+INFO 2025-07-07 04:59:53,274 views 22988 22472 Created task: idk
+INFO 2025-07-07 04:59:53,280 basehttp 22988 22472 "POST /api/tasks/tasks/ HTTP/1.1" 201 201
+INFO 2025-07-07 04:59:54,249 views 22988 18316 Created task: idk
+INFO 2025-07-07 04:59:54,249 views 22988 23032 Created task: idk
+INFO 2025-07-07 04:59:54,249 views 22988 8836 Created task: idk
+INFO 2025-07-07 04:59:54,251 basehttp 22988 18316 "POST /api/tasks/tasks/ HTTP/1.1" 201 201
+INFO 2025-07-07 04:59:54,251 basehttp 22988 23032 "POST /api/tasks/tasks/ HTTP/1.1" 201 201
+INFO 2025-07-07 04:59:54,254 basehttp 22988 8836 "POST /api/tasks/tasks/ HTTP/1.1" 201 201
+INFO 2025-07-07 04:59:55,522 basehttp 22988 10564 "GET /api/tasks/tasks/ HTTP/1.1" 200 2631
+INFO 2025-07-07 04:59:56,148 basehttp 22988 22472 "GET /api/tasks/tasks/ HTTP/1.1" 200 2631
+INFO 2025-07-07 04:59:57,227 basehttp 22988 8836 "GET /api/tasks/tasks/ HTTP/1.1" 200 2631
+INFO 2025-07-07 05:00:01,176 basehttp 22988 8836 "GET /api/tasks/tasks/ HTTP/1.1" 200 2631
+INFO 2025-07-07 05:00:04,708 basehttp 22988 8836 "GET /api/tasks/tasks/ HTTP/1.1" 200 2631
+INFO 2025-07-07 05:00:06,137 basehttp 22988 10564 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 05:00:06,448 basehttp 22988 22472 "GET /api/tasks/tasks/?status=pending HTTP/1.1" 200 2631
+INFO 2025-07-07 05:00:14,736 basehttp 22988 10564 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 05:00:15,041 basehttp 22988 22472 "GET /api/tasks/tasks/ HTTP/1.1" 200 2631
+INFO 2025-07-07 05:01:14,430 views 22988 22472 Created task: test 2
+INFO 2025-07-07 05:01:14,431 basehttp 22988 22472 "POST /api/tasks/tasks/ HTTP/1.1" 201 206
+INFO 2025-07-07 05:01:17,605 basehttp 22988 22472 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+INFO 2025-07-07 05:06:26,688 basehttp 22988 17828 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 05:06:49,774 basehttp 22988 17828 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+INFO 2025-07-07 05:07:57,069 basehttp 22988 8760 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 05:07:57,476 basehttp 22988 11404 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+INFO 2025-07-07 05:08:44,967 basehttp 22988 8760 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 05:08:45,274 basehttp 22988 11404 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+INFO 2025-07-07 05:08:48,471 basehttp 22988 8760 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 05:08:48,880 basehttp 22988 11404 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+WARNING 2025-07-07 05:13:32,403 log 22988 10776 Not Found: /api
+WARNING 2025-07-07 05:13:32,403 basehttp 22988 10776 "GET /api HTTP/1.1" 404 2443
+INFO 2025-07-07 05:14:08,870 basehttp 22988 17364 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 05:14:09,262 basehttp 22988 13608 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+INFO 2025-07-07 05:26:55,701 basehttp 22988 10424 "OPTIONS /api/tasks/categories/ HTTP/1.1" 200 0
+INFO 2025-07-07 05:26:59,175 basehttp 22988 10424 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 05:26:59,531 basehttp 22988 4260 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+INFO 2025-07-07 18:05:06,275 autoreload 16276 8008 Watching for file changes with StatReloader
+INFO 2025-07-07 18:05:24,376 basehttp 16276 11628 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+WARNING 2025-07-07 18:05:24,750 log 16276 11628 Not Found: /favicon.ico
+WARNING 2025-07-07 18:05:24,750 basehttp 16276 11628 "GET /favicon.ico HTTP/1.1" 404 2467
+INFO 2025-07-07 18:05:52,374 basehttp 16276 22800 "OPTIONS /api/tasks/tasks/ HTTP/1.1" 200 0
+INFO 2025-07-07 18:05:52,375 basehttp 16276 22804 "OPTIONS /api/tasks/categories/ HTTP/1.1" 200 0
+INFO 2025-07-07 18:06:17,814 basehttp 16276 22800 "OPTIONS /api/tasks/categories/ HTTP/1.1" 200 0
+INFO 2025-07-07 18:06:17,814 basehttp 16276 22804 "OPTIONS /api/tasks/tasks/ HTTP/1.1" 200 0
+INFO 2025-07-07 18:06:21,512 basehttp 16276 22804 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 18:06:21,770 basehttp 16276 22800 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+INFO 2025-07-07 18:06:24,128 basehttp 16276 22804 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 18:06:24,700 basehttp 16276 22800 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+INFO 2025-07-07 18:06:30,790 basehttp 16276 22800 "OPTIONS /api/ai/insights/enhance_task/ HTTP/1.1" 200 0
+INFO 2025-07-07 18:06:32,121 basehttp 16276 22804 "OPTIONS /api/tasks/tasks/edc172cc-d5bc-43d3-be81-5292e7bbe165/toggle_status/ HTTP/1.1" 200 0
+ERROR 2025-07-07 18:06:33,240 views 16276 22800 Error enhancing task: Client.__init__() got an unexpected keyword argument 'proxies'
+ERROR 2025-07-07 18:06:33,242 log 16276 22800 Internal Server Error: /api/ai/insights/enhance_task/
+ERROR 2025-07-07 18:06:33,244 basehttp 16276 22800 "POST /api/ai/insights/enhance_task/ HTTP/1.1" 500 34
+INFO 2025-07-07 18:06:34,633 basehttp 16276 22804 "POST /api/tasks/tasks/edc172cc-d5bc-43d3-be81-5292e7bbe165/toggle_status/ HTTP/1.1" 200 543
+INFO 2025-07-07 18:06:44,097 basehttp 16276 22804 "POST /api/tasks/tasks/edc172cc-d5bc-43d3-be81-5292e7bbe165/toggle_status/ HTTP/1.1" 200 515
+WARNING 2025-07-07 18:07:16,418 log 16276 16068 Not Found: /favicon.ico
+WARNING 2025-07-07 18:07:16,418 basehttp 16276 16068 "GET /favicon.ico HTTP/1.1" 404 2467
+INFO 2025-07-07 18:07:23,690 basehttp 16276 22800 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 18:07:23,690 basehttp 16276 22804 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+INFO 2025-07-07 18:07:26,845 basehttp 16276 22800 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 18:07:27,487 basehttp 16276 22804 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
+INFO 2025-07-07 18:15:13,039 basehttp 16276 11144 "OPTIONS /api/tasks/tasks/ HTTP/1.1" 200 0
+INFO 2025-07-07 18:15:13,041 basehttp 16276 11144 "OPTIONS /api/tasks/categories/ HTTP/1.1" 200 0
+INFO 2025-07-07 18:15:13,383 basehttp 16276 10484 "GET /api/tasks/categories/ HTTP/1.1" 200 52
+INFO 2025-07-07 18:15:13,645 basehttp 16276 8992 "GET /api/tasks/tasks/ HTTP/1.1" 200 3152
