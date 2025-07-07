@@ -254,3 +254,9 @@ Yes, I have fully integrated **OpenAI**, **Supabase**, and **Django**! Here's wh
 7. **Real-time Dashboard** with statistics
 
 The entire stack is production-ready with proper error handling, logging, and security configurations! 🎉
+
+
+## Here are some Snapshots of the projecet for better understanding :
+
+
+
